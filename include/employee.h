@@ -2,7 +2,6 @@
 #include <string>
 #include <iostream>
 
-using namespace std;
 #include"work.h"
 
 //员工类

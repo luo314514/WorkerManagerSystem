@@ -2,7 +2,6 @@
 #include <string>
 #include <iostream>
 
-using namespace std;
 #include"work.h"
 //老板类
 class Boss :public Worker{

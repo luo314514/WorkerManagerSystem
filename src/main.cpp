@@ -25,36 +25,43 @@ int main(){
         case 1://添加职工
         {
             /* code */
+            wm.Add_Emp();
             break;
         }
         case 2://显示职工
         {
             /* code */
+            wm.show_Emp();
             break;
         }
         case 3://删除职工
         {
             /* code */
+            wm.del_Emp();
             break;
         }
         case 4://修改职工
         {
             /* code */
+            wm.mod_Emp();
             break;
         }
         case 5://查找职工
         {
             /* code */
+            wm.find_Emp();
             break;
         }
         case 6://排序职工
         {
             /* code */
+            wm.sort_Emp();
             break;
         }
-        case 7://清空职工
+        case 7://清空文件中的职工
         {
             /* code */
+            wm.clean_File();
             break;
         }
         default:
